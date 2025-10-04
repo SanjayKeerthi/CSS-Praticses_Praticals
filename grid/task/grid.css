@@ -1,0 +1,31 @@
+.grid{
+    display: grid;
+    background-color: black;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.grid-c{
+    color: white;
+    background-color: brown;
+    
+}
+.center{
+    display: grid;
+    background-color: grey;
+    height: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    place-items: both;
+
+   
+
+}
+.center-c{
+    display: grid;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 150px;
+     
+}

@@ -1,0 +1,51 @@
+.new1{
+    background-color: aqua;
+}
+.new2{
+    background-color: red;
+}
+.new3{
+    background-color: blue;
+}
+.new4{
+    background-color: grey;
+}
+.cartoon{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 5px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.pogo{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 5px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.chutti{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 5px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.nick{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 5px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
