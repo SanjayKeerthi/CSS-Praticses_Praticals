@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position & Z-Index</title>
+</head>
+<body>
+    <style>
+        .parent{
+            background-color: black;
+            color: white;
+            padding: 15px;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            position: sticky;
+        }
+        .nav{
+            display: flex;
+            gap: 20px;
+
+        }
+        .nav a{
+            color: white;
+            text-decoration: none;
+        }
+        .box1{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            top: 50px;
+            z-index: 1;
+            
+            
+        }
+        .box2{
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            top: 50px;
+            z-index: 2;
+        }
+        .box3{
+            background-color:yellow;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            top: 50px;
+            z-index: 3;
+        }
+        
+    </style>
+    <div class="parent">
+        <div class="logo">Logo</div>
+        <div class="nav">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Service</a>
+            <a href="">Contact</a>
+        </div>
+    </div>
+
+    <div class="box1">
+        <p>BOX 1</p>
+    </div>
+    <div class="box2">
+        <p>BOX 2</p>
+    </div>
+    <div class="box3">
+        <p>BOX 3</p>
+    </div>
+</body>
+</html>

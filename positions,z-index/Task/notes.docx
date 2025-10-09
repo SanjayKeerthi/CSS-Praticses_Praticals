@@ -1,0 +1,96 @@
+1. What is a Pseudo-class?
+
+A pseudo-class is used to define a special state of an element.
+It acts like a class, but it’s applied automatically when an element is in a specific condition or interaction — not manually added in HTML.
+
+🔹 Common pseudo-classes:
+
+:hover – when a user hovers the mouse.
+
+:focus – when an element (like input) is focused.
+
+:active – when an element is being clicked.
+
+:visited – for visited links.
+
+:first-child, :last-child, :nth-child() – for specific children.
+
+2. What is a Pseudo-element?
+
+A pseudo-element is used to style specific parts of an element’s content —
+like the first letter, first line, or to insert content before/after an element.
+
+
+🔹 Common pseudo-elements:
+
+::before – inserts content before an element.
+
+::after – inserts content after an element.
+
+::first-letter – styles the first letter.
+
+::first-line – styles the first line.
+
+
+
+| Feature      | Pseudo-class                        | Pseudo-element                          |
+| ------------ | ----------------------------------- | --------------------------------------- |
+| **Purpose**  | Defines a *state* of an element     | Styles a *part* of an element           |
+| **Syntax**   | Uses **one colon** `:`              | Uses **two colons** `::`                |
+| **Examples** | `:hover`, `:focus`, `:nth-child()`  | `::before`, `::after`, `::first-letter` |
+| **Acts on**  | Entire element                      | Sub-part or generated part of element   |
+| **Example**  | `button:hover { background: red; }` | `p::first-letter { color: blue; }`      |
+
+
+When to use Pseudo-classes?
+     Use pseudo-classes when you want to style elements based on their state, position, or user interaction, without adding extra classes or JavaScript.
+When to use Psedo-Elements?
+     Use pseudo-elements when you want to style part of an element’s content or add extra content (like icons, quotes, or decorations) without adding new HTML tags.
+     
+
+Feature	Pseudo-class	Pseudo-element
+Purpose	Style element based on state/action	Style or insert part/content
+Example	:hover, :focus, :checked	::before, ::after, ::first-letter
+Used in	Buttons, forms, menus, tables	Headings, cards, tooltips, badges
+
+
+1. What is position in CSS?
+
+    The position property in CSS defines how an element is placed on a webpage — whether it follows the normal flow or is positioned at a specific place using coordinates (top, right, bottom, left).
+
+2. Types of Position Values
+
+1️⃣ Static (default)
+
+Default for all elements.
+
+Elements appear in normal flow (one after another).
+
+You cannot use top, left, etc. with it.
+
+2️⃣ Relative
+
+The element remains in the normal flow, but you can move it relative to its original position using top, left, etc.
+
+Other elements are not affected by this small shift.
+
+3️⃣ Absolute
+
+The element is removed from normal flow (other elements ignore it).
+
+Positioned relative to the nearest ancestor that has position: relative (or to the page if none exists).
+
+
+4️⃣ Fixed
+
+The element is removed from normal flow.
+
+Positioned relative to the viewport (browser window), not the page.
+
+It stays fixed in place even when you scroll.
+
+5️⃣ Sticky
+
+Acts like relative until you scroll past a certain point.
+
+Then it sticks (becomes fixed) at a position you define.
