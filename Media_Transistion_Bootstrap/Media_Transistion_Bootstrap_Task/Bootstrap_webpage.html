@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Simple Webpage</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 1️⃣ Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-uppercase" href="#">MyWebsite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2️⃣ Hero Section -->
+  <div class="container-fluid bg-primary text-white text-center p-5">
+    <h1 class="display-4 fw-bold text-uppercase">Welcome to My Website</h1>
+    <p class="lead fst-italic">A simple responsive webpage built using Bootstrap</p>
+    <button class="btn btn-light text-primary fw-bold mt-2">Get Started</button>
+  </div>
+
+  <!-- 3️⃣ About Section -->
+  <div class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/500x300" class="img-fluid rounded shadow" alt="About Image">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-uppercase fw-bold text-primary">About Us</h2>
+        <p class="lead text-muted">We create simple and modern web designs using Bootstrap. The layout is mobile-first, fully responsive, and uses predefined utility classes to make styling easier.</p>
+        <p class="text-dark">This webpage demonstrates the use of containers, typography, colors, flexbox, and responsive grid system in Bootstrap.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4️⃣ Services Section -->
+  <div class="container my-5">
+    <h2 class="text-center text-uppercase fw-bold mb-4">Our Services</h2>
+    <div class="row text-center">
+      <div class="col-12 col-md-4 mb-3">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title text-primary fw-bold">Web Design</h5>
+            <p class="card-text">Modern and responsive layouts using Bootstrap components.</p>
+            <a href="#" class="btn btn-outline-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-3">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title text-success fw-bold">Development</h5>
+            <p class="card-text">Clean and efficient code built with HTML, CSS, and Bootstrap.</p>
+            <a href="#" class="btn btn-outline-success">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-3">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title text-danger fw-bold">Support</h5>
+            <p class="card-text">We provide ongoing support and maintenance for all projects.</p>
+            <a href="#" class="btn btn-outline-danger">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5️⃣ Flexbox Section -->
+  <div class="container my-5">
+    <h3 class="text-center text-uppercase fw-bold mb-4">Team Alignment (Flexbox Example)</h3>
+    <div class="d-flex justify-content-between align-items-center flex-wrap bg-light p-3 rounded">
+      <div class="bg-primary text-white p-3 rounded">Member 1</div>
+      <div class="bg-success text-white p-3 rounded">Member 2</div>
+      <div class="bg-danger text-white p-3 rounded">Member 3</div>
+    </div>
+  </div>
+
+  <!-- 6️⃣ Footer -->
+  <footer class="container-fluid bg-dark text-light text-center p-3">
+    <p class="mb-0">&copy; 2025 MyWebsite | Designed with Bootstrap</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+Bootstrap Important Classes & Properties
+ 1. Breakpoints (Responsive Layouts)
+ Bootstrap uses a mobile-first approach with predefined breakpoints for responsive design.
+ Extra Small (<576px) - none
+ Small (≥576px) - sm
+ Medium (≥768px) - md
+ Large (≥992px) - lg
+ Extra Large (≥1200px) - xl
+ Extra Extra Large (≥1400px) - xxl
+ Example: div class="col-12 col-md-6 col-lg-4"
+ 2. Container & Container-Fluid
+ .container → Fixed-width container (responsive at each breakpoint)
+ .container-fluid → Full-width container (100% width across all devices)
+ Example: container and container-fluid used for layout width control.
+ 3. Typography Classes
+ .h1–.h6 → Heading sizes
+ .display-1–.display-6 → Larger headings
+ .lead → Introductory text
+ .text-start, .text-center, .text-end → Alignment
+ .fw-bold, .fw-light → Font weight
+ .fst-italic → Italic
+ .text-uppercase, .text-lowercase, .text-capitalize → Transformations
+ Example: p class="lead fw-bold text-center text-uppercase"
+ 4. Images
+ .img-fluid → Responsive image
+ .img-thumbnail → Adds border and padding
+ .rounded, .rounded-circle, .rounded-0 → Border radius
+ .float-start, .float-end, .mx-auto d-block → Positioning
+ 5. Colors & Background Colors
+ Text Colors: .text-primary, .text-success, .text-danger, etc.
+ Background Colors: .bg-primary, .bg-success, .bg-danger, etc.
+ Example: p class="text-success bg-light"
+ 6. Flexbox Utilities
+ .d-flex → Enables flexbox
+ .flex-row, .flex-column → Direction
+ .justify-content-* → Horizontal alignment
+ .align-items-* → Vertical alignment
+ .flex-wrap, .flex-nowrap → Wrapping
+ .order-0 to .order-5 → Item order
+Example: d-flex justify-content-between align-items-center
+  7. .container-fluid Class
+  Creates a full-width layout spanning the viewport width
+
+
+
+What is JS (JavaScript)? JavaScript (JS) is a high-level, interpreted programming language used to
+ make web pages interactive, dynamic, and functional. It runs directly in the browser and is one of
+ the core technologies of the web, along with HTML and CSS.
+ Why We Use JS? We use JavaScript to: - Add interactivity (buttons, forms, animations, dropdowns,
+ etc.) - Handle user actions (clicks, scrolls, key presses) - Perform data validation before sending
+ data to the server - Manipulate HTML & CSS dynamically using the DOM (Document Object Model)- Fetch and display data without reloading the page (using AJAX or APIs) - Create responsive and
+ user-friendly interfaces
+ When We Use JS? We use JavaScript when: - We need to interact with users dynamically. - A
+ page needs to update content without refreshing. - We want to enhance user experience (UX) with
+ animations or transitions. - We want to build web applications (e.g., chat apps, dashboards, games,
+ etc.)
+ Where We Use JS? JavaScript is used in: 1. Frontend (Client-Side) – inside browsers for user
+ interaction and UI updates. 2. Backend (Server-Side) – using Node.js to build APIs or servers. 3.
+ Mobile Apps – using frameworks like React Native, Ionic, etc. 4. Desktop Apps – using Electron.js
+ (e.g., VS Code built using JS). 5. Game Development – browser-based games (e.g., Phaser.js). 6.
+ Machine Learning / AI – libraries like TensorFlow.js.
+ Types of JS While JavaScript itself is one language, it can be categorized or used in different types
+ or environments: 1. Client-side JavaScript – runs in browsers (UI interactions). 2. Server-side
+ JavaScript – runs on servers (Node.js). 3. ES Versions – ECMAScript versions (like ES5, ES6,
+ ES7...) that define JavaScript’s new features and syntax.
+ If Using JS, What Happens on the Webpage? When you use JavaScript: - The browser executes
+ JS code after loading HTML and CSS. - The JS can access and modify the DOM, meaning it can: 
+Change text, styles, or images on the fly. - Show or hide elements. - React to user inputs. - Fetch
+ data from servers and display it instantly. In short, the webpage becomes dynamic and interactive
+ instead of static.
+ Without JS, Other Frontend Programming Languages: If you don’t use JavaScript, other languages
+ or technologies that can handle frontend interactions include: 1. TypeScript (a superset of
+ JavaScript) 2. Dart (used with Flutter Web) 3. Elm 4. CoffeeScript 5. WebAssembly (Wasm)
+ languages like: - C / C++ - Rust - Go
+ However, HTML and CSS are still essential for structure and design — but no other language can replace Java Script.
